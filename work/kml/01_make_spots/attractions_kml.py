@@ -1,10 +1,11 @@
 import simplekml
 import codecs
 
-FILE_PATH = "../../static_data/sea/atractions.csv"
+SPOT_FILE_PATH = "../../static_data/sea/atractions.csv"
+LINK_FILE_PATH = "../../static_data/sea/link.csv"
 
-def read_csv():
-    ifs = codecs.open(FILE_PATH, "r", "utf-8")
+def read_spot_csv():
+    ifs = codecs.open(SPOT_FILE_PATH, "r", "utf-8")
     next(ifs)
     data = ifs.read()
     ret_list = []
@@ -13,12 +14,15 @@ def read_csv():
         ret_list.append((name, lat, lon))
     return ret_list
 
-def main():
+def make_spot_kml():
     kml = simplekml.Kml()
-    atractions_data = read_csv()
+    atractions_data = read_spot_csv()
     for data in atractions_data:
         kml.newpoint(name=data[0], coords=[(data[2], data[1])])
-    kml.save("sample.kml")
+    kml.save("spots.kml")
+
+def main():
+    make_spot_kml()
 
 
 if __name__ == "__main__":
