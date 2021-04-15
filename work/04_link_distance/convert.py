@@ -22,7 +22,7 @@ def main():
             before_lat = lat
             before_lon = lon
         distance_list.append(distance)
-    
+        print(distance)
 
 
 if __name__== "__main__":

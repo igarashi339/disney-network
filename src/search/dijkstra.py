@@ -1,5 +1,6 @@
 import decimal
-from model.py import Graph
+import copy
+from model import Graph, Route
 
 
 class Dijkstra:
@@ -7,7 +8,7 @@ class Dijkstra:
     INVALID_LABEL = decimal.Decimal('inf')
 
     def __init__(self, graph):
-        self.graph = graph
+        self.graph = copy.deepcopy(graph)
 
     def calc_shortest_path(self, org_node_id, dst_node_id):
         """
@@ -25,6 +26,18 @@ class Dijkstra:
             min_cost_node = self.find_min_label_node(label_fixed_nodes, node_label_list)
             if min_cost_node == Dijkstra.INVALID_NODE_ID:
                 return None
+            label_fixed_nodes.append(min_cost_node)
+            adjacent_nodes = self.get_adjacent_nodes(min_cost_node)
+            for node in adjacent_nodes:
+                if node in label_fixed_nodes:
+                    continue
+                new_cost = node_label_list[min_cost_node] + self.graph.cost(min_cost_node, node)
+                if new_cost < node_label_list[node]:
+                    prev_node_dict[node] = min_cost_node
+                    node_label_list[node] = new_cost
+        shortest_path_node_list = Dijkstra.trace(prev_node_dict, org_node_id, dst_node_id)
+        shortest_path_cost = node_label_list[dst_node_id]
+        return Route(shortest_path_node_list, shortest_path_cost)
 
     def find_min_label_node(self, label_fixed_nodes, node_label_list):
         """
@@ -49,5 +62,22 @@ class Dijkstra:
         target_nodeに隣接するすべてのノードIDを返す。
         """
         adjacent_nodes = []
-        for node in range(self.graph.size()):
-            pass
+        for node in range(self.graph.node_num):
+            if self.graph.cost(target_node_id, node) != Graph.INVALID_COST:
+                adjacent_nodes.append(node)
+        return adjacent_nodes
+
+    @staticmethod
+    def trace(prev_node_dict, org_node_id, dst_node_id):
+        """
+        探索結果を元にスタートノードからゴールノードまでのノード列を求める。
+        """
+        shortest_path = [dst_node_id]
+        target_node = dst_node_id
+        assert prev_node_dict[org_node_id] == -1
+        while prev_node_dict[target_node] != -1:
+            target_node = prev_node_dict[target_node]
+            shortest_path.append(target_node)
+        shortest_path.reverse()
+        return shortest_path
+

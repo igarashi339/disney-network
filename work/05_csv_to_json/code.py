@@ -4,7 +4,6 @@ import codecs
 def convert_attractions():
     attractions = []
     with codecs.open("input/attractions.csv", "r", "utf-8") as f:
-        next(f) # header
         data = f.read()
         for row in data.splitlines():
             name, lat, lon = row.split(",")
@@ -20,7 +19,6 @@ def convert_attractions():
 def convert_links():
     links = []
     with open("input/links.csv") as f:
-        next(f)
         data = f.readlines()
         links = []
         for row in data:
@@ -45,6 +43,7 @@ def convert_links():
             link = {
                 "org_node_id": org_id,
                 "dst_node_id": dst_id,
+                "length": length,
                 "coords": coords
             }
             links.append(link)
@@ -54,7 +53,6 @@ def convert_links():
 def convert_nodes():
     nodes = []
     with open("input/nodes.csv") as f:
-        next(f)
         data = f.readlines()
         for row in data:
             _, lat, lon = row.split(",")

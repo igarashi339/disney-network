@@ -9,8 +9,8 @@ class Link:
 
 def same_node(coord1, coord2):
     distance = geodesic(coord1, coord2).m
-    # 距離が3[m]以内なら同じ点と判断
-    if distance < 3:
+    # 距離が10[m]以内なら同じ点と判断
+    if distance < 10:
         return True
     return False
 
