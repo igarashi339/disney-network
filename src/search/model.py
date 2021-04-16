@@ -29,7 +29,7 @@ class Graph:
                 length = float(link["length"])
                 self.link_matrix[org_node_id][dst_node_id].length = length
                 self.link_matrix[org_node_id][dst_node_id].coords = copy.deepcopy(link["coords"])
-                # 無向グラフなので逆も登録する
+                # 逆リンクは形状点列をひっくり返す
                 self.link_matrix[dst_node_id][org_node_id].length = length
                 self.link_matrix[dst_node_id][org_node_id].coords = copy.deepcopy(link["coords"])
                 self.link_matrix[dst_node_id][org_node_id].coords.reverse()
@@ -42,16 +42,10 @@ class Route:
     def __init__(self, node_list, cost):
         self.node_list = node_list
         self.cost = cost
-        # 自身を構成する形状点列。描画用。
-        self.coords = []
+        self.coords = []  # 描画用の形状点列
 
     def expand_myself(self, graph):
         for i in range(len(self.node_list) - 1):
             org_node = self.node_list[i]
             dst_node = self.node_list[i + 1]
             self.coords.extend(graph.link_matrix[org_node][dst_node].coords)
-
-
-if __name__ == "__main__":
-    graph = Graph("../data/sea/links.json")
-    print(graph.link_matrix[0][1].__str__())

@@ -3,8 +3,9 @@ from geopy.distance import geodesic
 import copy
 import sys
 import json
+import decimal
 
-INPUT_KML_PATH = ""
+INPUT_DIR_PATH = ""
 OUTPUT_DIR_PATH = ""
 SAME_NODE_THRESHOLD = 5 # 同じノードとみなすしきい値[m]
 
@@ -17,7 +18,7 @@ def read_kml():
         [[(lat, lon), (lat, lon), ...], [],... ]
     """
     links = []
-    with open(INPUT_KML_PATH, "r", encoding="utf-8") as f:
+    with open(INPUT_DIR_PATH + "/disney-sea-network.kml", "r", encoding="utf-8") as f:
         root = parser.parse(f).getroot()
         placemarks = root.Document.Placemark
         for placemark in placemarks:
@@ -118,27 +119,63 @@ def make_objects(org_nodes, org_links):
 
 
 def dump_nodes(node_obj_list):
-    with open(OUTPUT_DIR_PATH + "nodes.json", "w") as f:
+    with open(OUTPUT_DIR_PATH + "nodes.json", "w", encoding="utf-8") as f:
         json.dump({"nodes": node_obj_list}, f, ensure_ascii=False, indent=4)
 
 
 def dump_links(link_obj_list):
-    with open(OUTPUT_DIR_PATH + "links.json", "w") as f:
+    with open(OUTPUT_DIR_PATH + "links.json", "w", encoding="utf-8") as f:
         json.dump({"links": link_obj_list}, f, ensure_ascii=False, indent=4)
+
+
+def dump_spots(spot_obj_list):
+    with open(OUTPUT_DIR_PATH + "spots.json", "w", encoding="utf-8") as f:
+        json.dump({"spots": spot_obj_list}, f, ensure_ascii=False, indent=4)
+
+
+def calc_nearst_node(coord, node_obj_list):
+    nearest_node_id = -1
+    nearest_distance = decimal.Decimal('inf')
+    for node in node_obj_list:
+        node_coord = (node["lat"], node["lon"])
+        distance = geodesic(coord, node_coord).m
+        if distance < nearest_distance:
+            nearest_distance = distance
+            nearest_node_id = node["node_id"]
+    return nearest_node_id
+
+
+def make_spot_obj_list(node_obj_list):
+    with open(INPUT_DIR_PATH + "/spots.json", "r", encoding="utf-8") as f:
+        json_data = json.load(f)
+        spot_obj_list = []
+        for i, spot in enumerate(json_data["spots"]):
+            coord = (spot["lat"], spot["lon"])
+            spot_obj_list.append({
+                "spot_id": i,
+                "name": spot["name"],
+                "lat": spot["lat"],
+                "lon": spot["lon"],
+                "type": spot["type"],
+                "nearest_node_id": calc_nearst_node(coord, node_obj_list)
+            })
+        return spot_obj_list
 
 
 def main():
     org_links = read_kml()
     nodes, links = make_nodes_and_links(org_links)
     node_obj_list, link_obj_list = make_objects(nodes, links)
+    spot_obj_list = make_spot_obj_list(node_obj_list)
     dump_nodes(node_obj_list)
     dump_links(link_obj_list)
+    dump_spots(spot_obj_list)
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("error! three arguments required")
         sys.exit()
-    INPUT_KML_PATH = sys.argv[1]
+    INPUT_DIR_PATH = sys.argv[1]
     OUTPUT_DIR_PATH = sys.argv[2]
     main()
