@@ -5,6 +5,6 @@ OUTPUT_PATH="./data/"
 gen_network:
 	python src/network/convert.py ${INPUT_PATH} ${OUTPUT_PATH}
 
-.PHONY: exec_search
-exec_search:
+.PHONY: search
+search:
 	python src/search/main.py 8 17

@@ -32,7 +32,7 @@ def write_route(route, output_file_path):
     linestring = kml.newlinestring(name="search result")
     linestring.coords = [(lon, lat) for (lat, lon) in route.coords]
     linestring.style.linestyle.color = simplekml.Color.orange
-    linestring.style.linestyle.width = 10
+    linestring.style.linestyle.width = 5
     kml.save(output_file_path)
 
 
