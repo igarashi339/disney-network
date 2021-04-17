@@ -133,3 +133,7 @@ dmypy.json
 
 # working dir
 .work/
+
+# generated data
+/data
+./search_result.kml

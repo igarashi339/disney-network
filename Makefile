@@ -7,4 +7,4 @@ gen_network:
 
 .PHONY: search
 search:
-	python src/search/main.py 8 17
+	python src/search/main.py 0 10
