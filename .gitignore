@@ -132,7 +132,7 @@ dmypy.json
 .idea/
 
 # working dir
-.work/
+/work
 
 # generated data
 search_result.kml
