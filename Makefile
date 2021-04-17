@@ -1,10 +1,10 @@
 INPUT_PATH="./static_data/sea/"
-OUTPUT_PATH="./data/"
+OUTPUT_PATH="./data/sea/"
 
-.PHONY: gen_network
-gen_network:
+.PHONY: convert
+convert:
 	python src/network/convert.py ${INPUT_PATH} ${OUTPUT_PATH}
 
 .PHONY: search
 search:
-	python src/search/main.py 0 10
+	python src/search/main.py 28 17

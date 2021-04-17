@@ -4,7 +4,7 @@ import sys
 from model import Graph
 from dijkstra import Dijkstra
 
-INPUT_PATH="./data/"
+INPUT_PATH="./data/sea/"
 OUTPUT_PATH="./"
 
 
