@@ -7,4 +7,4 @@ convert:
 
 .PHONY: search
 search:
-	python src/search/main.py 28 17
+	python src/search/main.py 8 15

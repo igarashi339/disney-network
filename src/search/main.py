@@ -48,5 +48,5 @@ if __name__ == "__main__":
     dijkstra = Dijkstra(graph)
     route = dijkstra.calc_shortest_path(node_id_org, node_id_dst)
     route.expand_myself(graph)
-    print(route.cost)
+    print("distance is " + str(route.cost) + "[m].")
     write_route(route, OUTPUT_PATH + "search_result.kml")
