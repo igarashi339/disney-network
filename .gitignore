@@ -136,4 +136,4 @@ dmypy.json
 
 # generated data
 /data
-./search_result.kml
+search_result.kml
