@@ -4,403 +4,715 @@
             "name": "ソアリン：ファンタスティック・フライト",
             "lat": "35.62753096260775",
             "lon": "139.88570175371126",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/219/"
         },
         {
             "name": "ディズニーシー・トランジットスチーマーライン（メディテレーニアンハーバー）",
             "lat": "35.626573169189264",
             "lon": "139.88593456101927",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/227/"
         },
         {
             "name": "フォートレス・エクスプロレーション",
             "lat": "35.62577595814663",
             "lon": "139.88521622867762",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/244/"
         },
         {
             "name": "ヴェネツィアン・ゴンドラ",
             "lat": "35.62609086477499",
             "lon": "139.88796327515433",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/230/"
         },
         {
             "name": "タートル・トーク",
             "lat": "35.62334375031604",
             "lon": "139.88726518210083",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/246/"
         },
         {
             "name": "タワー・オブ・テラー",
             "lat": "35.62391248028388",
             "lon": "139.88828835075003",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/243/"
         },
         {
             "name": "ディズニーシー・エレクトリックレールウェイ（アメリカンウォーターフロント）",
             "lat": "35.62491145456335",
             "lon": "139.88775091735545",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/232/"
         },
         {
             "name": "ディズニーシー・トランジットスチーマーライン（アメリカンウォーターフロント）",
             "lat": "35.62420292517226",
             "lon": "139.88569672120138",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/228/"
         },
         {
             "name": "トイ・ストーリー・マニア！",
             "lat": "35.62477700583167",
             "lon": "139.8889301319155",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/218/"
         },
         {
             "name": "ビッグシティ・ヴィークル",
             "lat": "35.62439387470845",
             "lon": "139.88706200880483",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/233/"
         },
         {
             "name": "アクアトピア",
             "lat": "35.62468589551906",
             "lon": "139.88349606906613",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/234/"
         },
         {
             "name": "ディズニーシー・エレクトリックレールウェイ（ポートディスカバリー）",
             "lat": "35.62539074665123",
             "lon": "139.88309169515944",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/231/"
         },
         {
             "name": "ニモ＆フレンズ・シーライダー",
             "lat": "35.62494825695022",
             "lon": "139.88251554646882",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/247/"
         },
         {
             "name": "インディ・ジョーンズ・アドベンチャー： クリスタルスカルの魔宮",
             "lat": "35.6263737631128",
             "lon": "139.8809767843943",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/222/"
         },
         {
             "name": "ディズニーシー・トランジットスチーマーライン（ロストリバーデルタ）",
             "lat": "35.62673965820737",
             "lon": "139.8819008279609",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/229/"
         },
         {
             "name": "レイジングスピリッツ",
             "lat": "35.627722226399435",
             "lon": "139.88080457814263",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/242/"
         },
         {
             "name": "キャラバンカルーセル",
             "lat": "35.62817027479872",
             "lon": "139.88333969788812",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/236/"
         },
         {
             "name": "ジャスミンのフライングカーペット",
             "lat": "35.62835033507712",
             "lon": "139.88110064513887",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/220/"
         },
         {
             "name": "シンドバッド・ストーリーブック・ヴォヤッジ",
             "lat": "35.628507999414445",
             "lon": "139.8814498574758",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/235/"
         },
         {
             "name": "マジックランプシアター",
             "lat": "35.628433782867795",
             "lon": "139.88306798035555",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/226/"
         },
         {
             "name": "アリエルのプレイグラウンド",
             "lat": "35.62679154348968",
             "lon": "139.8833172765092",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/202/"
         },
         {
             "name": "ジャンピン・ジェリーフィッシュ",
             "lat": "35.626514238390236",
             "lon": "139.88340256425997",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/239/"
         },
         {
             "name": "スカットルのスクーター",
             "lat": "35.62726987355347",
             "lon": "139.88321567037846",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/238/"
         },
         {
             "name": "フランダーのフライングフィッシュコースター",
             "lat": "35.627035483426376",
             "lon": "139.88224597144833",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/237/"
         },
         {
             "name": "ブローフィッシュ・バルーンレース",
             "lat": "35.626468454526325",
             "lon": "139.88290367341438",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/240/"
         },
         {
             "name": "マーメイドラグーンシアター",
             "lat": "35.62640700722643",
             "lon": "139.88271825269382",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/221/"
         },
         {
             "name": "ワールプール",
             "lat": "35.626673391618006",
             "lon": "139.88312897895753",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/241/"
         },
         {
             "name": "海底2万マイル",
             "lat": "35.62641929875694",
             "lon": "139.88461075873784",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/224/"
         },
         {
             "name": "センター・オブ・ジ・アース",
             "lat": "35.62591270174353",
             "lon": "139.88453268519172",
-            "type": "attraction"
+            "type": "attraction",
+            "url": "https://www.tokyodisneyresort.jp/tds/attraction/detail/223/"
         },
         {
             "name": "カフェ・ポルトフィーノ",
             "lat": "35.62695264833476",
             "lon": "139.88714679981504",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/400/"
         },
         {
             "name": "ゴンドリエ・スナック",
             "lat": "35.625966268892086",
             "lon": "139.88730258806373",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/411/"
         },
         {
             "name": "ザンビーニ･ブラザーズ･リストランテ",
             "lat": "35.627169846655995",
             "lon": "139.8860085445333",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/403/"
         },
         {
             "name": "マゼランズ",
             "lat": "35.62593079188322",
             "lon": "139.88528718994823",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/412/"
         },
         {
             "name": "マゼランズ・ラウンジ",
             "lat": "35.62591171513723",
             "lon": "139.88533479915824",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/415/"
         },
         {
             "name": "マンマ・ビスコッティーズ・ベーカリー",
             "lat": "35.627031123601206",
             "lon": "139.88761556530423",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/401/"
         },
         {
             "name": "リストランテ・ディ・カナレット",
             "lat": "35.6256768376592",
             "lon": "139.8878840659662",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/408/"
         },
         {
             "name": "リフレスコス",
             "lat": "35.625922848537776",
             "lon": "139.88498528406274",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/416/"
         },
         {
             "name": "S.S.コロンビア・ダイニングルーム",
             "lat": "35.62336259993873",
             "lon": "139.88722275593676",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/425/"
         },
         {
             "name": "ケープコッド・クックオフ",
             "lat": "35.62454246535265",
             "lon": "139.88510562868893",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/446/"
         },
         {
             "name": "ケープコッド・コンフェクション",
             "lat": "35.62455907346721",
             "lon": "139.8849652703674",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/448/"
         },
         {
             "name": "ドックサイドダイナー",
             "lat": "35.62377706755055",
             "lon": "139.88760165630976",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/441/"
         },
         {
             "name": "テディ・ルーズヴェルト・ラウンジ",
             "lat": "35.62340244500671",
             "lon": "139.887249490907",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/429/"
         },
         {
             "name": "デランシー・ケータリング",
             "lat": "35.62486059009338",
             "lon": "139.8875073792503",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/423/"
         },
         {
             "name": "ニューヨーク・デリ",
             "lat": "35.625360255196206",
             "lon": "139.8878674000761",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/422/"
         },
         {
             "name": "バーナクル・ビルズ",
             "lat": "35.624057270334205",
             "lon": "139.88680246759344",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/430/"
         },
         {
             "name": "ハイタイド・トリート",
             "lat": "35.624982684284234",
             "lon": "139.88435859423043",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/449/"
         },
         {
             "name": "ハドソンリバー・ハーベスト",
             "lat": "35.623791799452526",
             "lon": "139.88736299869663",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/498/"
         },
         {
             "name": "パパダキス・フレッシュフルーツ",
             "lat": "35.6241067916498",
             "lon": "139.88698791986826",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/440/"
         },
         {
             "name": "リバティ・ランディング・ダイナー",
             "lat": "35.62453805491093",
             "lon": "139.88702237925037",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/435/"
         },
         {
             "name": "レストラン櫻",
             "lat": "35.624750388158205",
             "lon": "139.88706780260532",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/432/"
         },
         {
             "name": "レストラン櫻 テラス席",
             "lat": "35.62463665215171",
             "lon": "139.88699008414704",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/436/"
         },
         {
             "name": "シーサイドスナック",
             "lat": "35.624226490084894",
             "lon": "139.88407739704098",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/450/"
         },
         {
             "name": "ブリーズウェイ・バイツ",
             "lat": "35.62557288181555",
             "lon": "139.8832934499238",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/454/"
         },
         {
             "name": "ベイサイド・テイクアウト",
             "lat": "35.62534787349407",
             "lon": "139.88303017036733",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/453/"
         },
         {
             "name": "ホライズンベイ・レストラン",
             "lat": "35.625329434540184",
             "lon": "139.88332197925132",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/451/"
         },
         {
             "name": "エクスペディション・イート",
             "lat": "35.62655199342709",
             "lon": "139.88147863907696",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/460/"
         },
         {
             "name": "トロピック・アルズ",
             "lat": "35.62733398487032",
             "lon": "139.88214863509043",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/457/"
         },
         {
             "name": "ミゲルズ・エルドラド・キャンティーナ",
             "lat": "35.62635353687072",
             "lon": "139.88221841668994",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/456/"
         },
         {
             "name": "ユカタン・ベースキャンプ・グリル",
             "lat": "35.62685932680087",
             "lon": "139.8807422907195",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/459/"
         },
         {
             "name": "ロストリバークックハウス",
             "lat": "35.627528730257204",
             "lon": "139.88129555984574",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/461/"
         },
         {
             "name": "オープンセサミ",
             "lat": "35.628332835176884",
             "lon": "139.8818056970414",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/465/"
         },
         {
             "name": "カスバ・フードコート",
             "lat": "35.628467652267155",
             "lon": "139.88271758423892",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/463/"
         },
         {
             "name": "サルタンズ・オアシス",
             "lat": "35.62806195659733",
             "lon": "139.88205571876244",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/464/"
         },
         {
             "name": "セバスチャンのカリプソキッチン",
             "lat": "35.626576161868144",
             "lon": "139.88250134014066",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/468/"
         },
         {
             "name": "ヴォルケイニア・レストラン",
             "lat": "35.626687726652065",
             "lon": "139.8843650691074",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/418/"
         },
         {
             "name": "ノーチラスギャレー",
             "lat": "35.6262659901122",
             "lon": "139.88424979704135",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/421/"
         },
         {
             "name": "リフレッシュメント・ステーション",
             "lat": "35.62654293516153",
             "lon": "139.8838738970412",
-            "type": "restaurant"
+            "type": "restaurant",
+            "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/419/"
+        },
+        {
+            "name": "イル・ポスティーノ・ステーショナリー",
+            "lat": "35.627053829792416",
+            "lon": "139.8864666793604",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/604/"
+        },
+        {
+            "name": "ヴァレンティーナズ・スウィート",
+            "lat": "35.62689230914014",
+            "lon": "139.88835381094933",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/600/"
+        },
+        {
+            "name": "ヴィラ・ドナルド・ホームショップ",
+            "lat": "35.626212786779085",
+            "lon": "139.88740088518182",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/616/"
+        },
+        {
+            "name": "ヴェネツィアン・カーニバル・マーケット",
+            "lat": "35.626337270308056",
+            "lon": "139.88757496709434",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/615/"
+        },
+        {
+            "name": "エンポーリオ",
+            "lat": "35.62690536565524",
+            "lon": "139.88788725437888",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/601/"
+        },
+        {
+            "name": "ガッレリーア・ディズニー",
+            "lat": "35.62671446795919",
+            "lon": "139.8884136892084",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/611/"
+        },
+        {
+            "name": "スプレンディード",
+            "lat": "35.62657375882438",
+            "lon": "139.88785306090304",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/613/"
+        },
+        {
+            "name": "ピッコロメルカート",
+            "lat": "35.62685455442086",
+            "lon": "139.88760179728777",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/602/"
+        },
+        {
+            "name": "フィガロズ・クロージアー",
+            "lat": "35.62654965539287",
+            "lon": "139.8880709872984",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/612/"
+        },
+        {
+            "name": "フォトグラフィカ",
+            "lat": "35.62668337182324",
+            "lon": "139.8885987434835",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/608/"
+        },
+        {
+            "name": "ベッラ・ミンニ・コレクション",
+            "lat": "35.62708041807728",
+            "lon": "139.88659347207502",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/605/"
+        },
+        {
+            "name": "マーチャント・オブ・ヴェニス・コンフェクション",
+            "lat": "35.62643965005653",
+            "lon": "139.88783629286553",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/614/"
+        },
+        {
+            "name": "ミラマーレ",
+            "lat": "35.62697708019846",
+            "lon": "139.88680208614412",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/606/"
+        },
+        {
+            "name": "リメンブランツェ",
+            "lat": "35.62518935048507",
+            "lon": "139.88613344087182",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/617/"
+        },
+        {
+            "name": "アーント・ペグズ・ヴィレッジストア",
+            "lat": "35.62451924491055",
+            "lon": "139.88455212560146",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/629/"
+        },
+        {
+            "name": "スチームボート・ミッキーズ",
+            "lat": "35.62501049638865",
+            "lon": "139.88711099647574",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/622/"
+        },
+        {
+            "name": "スリンキー・ドッグのギフトトロリー",
+            "lat": "35.62468223963672",
+            "lon": "139.88863096648507",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/618/"
+        },
+        {
+            "name": "タワー・オブ・テラー・メモラビリア",
+            "lat": "35.623904604027395",
+            "lon": "139.8880629781352",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/624/"
+        },
+        {
+            "name": "ニュージーズ・ノヴェルティ",
+            "lat": "35.624554730269516",
+            "lon": "139.8873323461311",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/623/"
+        },
+        {
+            "name": "マクダックス・デパートメントストア",
+            "lat": "35.62508364370584",
+            "lon": "139.88749816160015",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/621/"
+        },
+        {
+            "name": "スカイウォッチャー・スーヴェニア",
+            "lat": "35.62548210888883",
+            "lon": "139.8819793769745",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/631/"
+        },
+        {
+            "name": "ディスカバリーギフト",
+            "lat": "35.62505605408059",
+            "lon": "139.88328215942215",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/630/"
+        },
+        {
+            "name": "エクスペディション・フォトアーカイヴ",
+            "lat": "35.62674376338182",
+            "lon": "139.88113534998413",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/648/"
+        },
+        {
+            "name": "ペドラーズ・アウトポスト",
+            "lat": "35.6267657690279",
+            "lon": "139.88123911760607",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/644/"
+        },
+        {
+            "name": "ルックアウト・トレーダー",
+            "lat": "35.62694452524924",
+            "lon": "139.8814682737277",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/647/"
+        },
+        {
+            "name": "ロストリバーアウトフィッター",
+            "lat": "35.62677443516585",
+            "lon": "139.88222003262334",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/645/"
+        },
+        {
+            "name": "アグラバーマーケットプレイス",
+            "lat": "35.628112961698555",
+            "lon": "139.88262954350137",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/641/"
+        },
+        {
+            "name": "アブーズ・バザール",
+            "lat": "35.62811056149167",
+            "lon": "139.88234041804847",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/650/"
+        },
+        {
+            "name": "キス・デ・ガール・ファッション",
+            "lat": "35.62700723497052",
+            "lon": "139.88252646975775",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/637/"
+        },
+        {
+            "name": "グロットフォト＆ギフト",
+            "lat": "35.62746485770061",
+            "lon": "139.88382750432524",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/638/"
+        },
+        {
+            "name": "シータートル・スーヴェニア",
+            "lat": "35.62703183626786",
+            "lon": "139.88372426073525",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/640/"
+        },
+        {
+            "name": "スリーピーホエール・ショップ",
+            "lat": "35.62669513695009",
+            "lon": "139.8826014298775",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/633/"
+        },
+        {
+            "name": "マーメイドトレジャー",
+            "lat": "35.626900580215036",
+            "lon": "139.882564338146",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/636/"
+        },
+        {
+            "name": "マーメイドメモリー",
+            "lat": "35.62722882470246",
+            "lon": "139.8830465204795",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/639/"
+        },
+        {
+            "name": "ノーチラスギフト",
+            "lat": "35.626211716413074",
+            "lon": "139.88401990748127",
+            "type": "shop",
+            "url": "https://www.tokyodisneyresort.jp/tds/shop/detail/632/"
         }
      ]
 }
