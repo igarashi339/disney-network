@@ -7,4 +7,8 @@ convert:
 
 .PHONY: search
 search:
-	python src/search/main.py 97 96
+	python src/search/one_route_search.py 97 100
+
+.PHONY: all_search
+all_search:
+	python src/search/all_route_search.py
