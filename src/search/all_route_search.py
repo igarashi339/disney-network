@@ -5,7 +5,7 @@ from model import Graph
 from dijkstra import Dijkstra
 
 INPUT_PATH="./data/sea/"
-OUTPUT_PATH="./"
+OUTPUT_PATH="./data/sea/"
 
 if __name__ == "__main__":
     loader = Loader(INPUT_PATH)
