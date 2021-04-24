@@ -4,6 +4,7 @@ import copy
 import sys
 import json
 import decimal
+import simplekml
 
 INPUT_DIR_PATH = ""
 OUTPUT_DIR_PATH = ""
@@ -162,6 +163,25 @@ def make_spot_obj_list(node_obj_list):
         return spot_obj_list
 
 
+def make_network_kml(link_obj_list, node_obj_list, spot_obj_list):
+    kml = simplekml.Kml()
+    spot_color_map = {
+        "attraction": simplekml.Color.yellow,
+        "restaurant": simplekml.Color.green,
+        "shop": simplekml.Color.orange
+    }
+    for link in link_obj_list:
+        ls = kml.newlinestring()
+        ls.coords = [(lon, lat) for (lat, lon) in link["coords"]]
+        ls.style.linestyle.color = simplekml.Color.springgreen
+        ls.style.linestyle.width = 3
+    for spot in spot_obj_list:
+        pnt = kml.newpoint(name=spot["name"])
+        pnt.coords = [(spot["lon"], spot["lat"])]
+        pnt.style.iconstyle.color = spot_color_map[spot["type"]]
+    kml.save(OUTPUT_DIR_PATH + "disney-sea-network.kml")
+
+
 def main():
     org_links = read_kml()
     nodes, links = make_nodes_and_links(org_links)
@@ -170,6 +190,7 @@ def main():
     dump_nodes(node_obj_list)
     dump_links(link_obj_list)
     dump_spots(spot_obj_list)
+    make_network_kml(link_obj_list, node_obj_list, spot_obj_list)
 
 
 if __name__ == "__main__":
