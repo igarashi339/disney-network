@@ -152,14 +152,17 @@ def make_spot_obj_list(node_obj_list):
         spot_obj_list = []
         for i, spot in enumerate(json_data["spots"]):
             coord = (spot["lat"], spot["lon"])
-            spot_obj_list.append({
+            new_obj = {
                 "spot_id": i,
                 "name": spot["name"],
                 "lat": spot["lat"],
                 "lon": spot["lon"],
                 "type": spot["type"],
                 "nearest_node_id": calc_nearst_node(coord, node_obj_list)
-            })
+            }
+            if spot.get("play-time"):
+                new_obj["play-time"] = spot["play-time"]
+            spot_obj_list.append(new_obj)
         return spot_obj_list
 
 
