@@ -4,13 +4,15 @@
             "name": "ソアリン：ファンタスティック・フライト",
             "lat": "35.62753096260775",
             "lon": "139.88570175371126",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "300"
         },
         {
             "name": "ディズニーシー・トランジットスチーマーライン（メディテレーニアンハーバー）",
             "lat": "35.626573169189264",
             "lon": "139.88593456101927",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "420"
         },
         {
             "name": "フォートレス・エクスプロレーション",
@@ -22,103 +24,120 @@
             "name": "ヴェネツィアン・ゴンドラ",
             "lat": "35.62609086477499",
             "lon": "139.88796327515433",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "690"
         },
         {
             "name": "タートル・トーク",
             "lat": "35.62334375031604",
             "lon": "139.88726518210083",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "1800"
         },
         {
             "name": "タワー・オブ・テラー",
             "lat": "35.62391248028388",
             "lon": "139.88828835075003",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "120"
         },
         {
             "name": "ディズニーシー・エレクトリックレールウェイ（アメリカンウォーターフロント）",
             "lat": "35.62491145456335",
             "lon": "139.88775091735545",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "150"
         },
         {
             "name": "ディズニーシー・トランジットスチーマーライン（アメリカンウォーターフロント）",
             "lat": "35.62420292517226",
             "lon": "139.88569672120138",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "780"
         },
         {
             "name": "トイ・ストーリー・マニア！",
             "lat": "35.62477700583167",
             "lon": "139.8889301319155",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "420"
         },
         {
             "name": "ビッグシティ・ヴィークル",
             "lat": "35.62439387470845",
             "lon": "139.88706200880483",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "600"
         },
         {
             "name": "アクアトピア",
             "lat": "35.62468589551906",
             "lon": "139.88349606906613",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "150"
         },
         {
             "name": "ディズニーシー・エレクトリックレールウェイ（ポートディスカバリー）",
             "lat": "35.62539074665123",
             "lon": "139.88309169515944",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "150"
         },
         {
             "name": "ニモ＆フレンズ・シーライダー",
             "lat": "35.62494825695022",
             "lon": "139.88251554646882",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "300"
         },
         {
             "name": "インディ・ジョーンズ・アドベンチャー： クリスタルスカルの魔宮",
             "lat": "35.6263737631128",
             "lon": "139.8809767843943",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "180"
         },
         {
             "name": "ディズニーシー・トランジットスチーマーライン（ロストリバーデルタ）",
             "lat": "35.62673965820737",
             "lon": "139.8819008279609",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "360"
         },
         {
             "name": "レイジングスピリッツ",
             "lat": "35.627722226399435",
             "lon": "139.88080457814263",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "90"
         },
         {
             "name": "キャラバンカルーセル",
             "lat": "35.62817027479872",
             "lon": "139.88333969788812",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "150"
         },
         {
             "name": "ジャスミンのフライングカーペット",
             "lat": "35.62835033507712",
             "lon": "139.88110064513887",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "90"
         },
         {
             "name": "シンドバッド・ストーリーブック・ヴォヤッジ",
             "lat": "35.628507999414445",
             "lon": "139.8814498574758",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "600"
         },
         {
             "name": "マジックランプシアター",
             "lat": "35.628433782867795",
             "lon": "139.88306798035555",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "1380"     
         },
         {
             "name": "アリエルのプレイグラウンド",
@@ -130,49 +149,57 @@
             "name": "ジャンピン・ジェリーフィッシュ",
             "lat": "35.626514238390236",
             "lon": "139.88340256425997",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "60"
         },
         {
             "name": "スカットルのスクーター",
             "lat": "35.62726987355347",
             "lon": "139.88321567037846",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "90"
         },
         {
             "name": "フランダーのフライングフィッシュコースター",
             "lat": "35.627035483426376",
             "lon": "139.88224597144833",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "60"
         },
         {
             "name": "ブローフィッシュ・バルーンレース",
             "lat": "35.626468454526325",
             "lon": "139.88290367341438",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "90"
         },
         {
             "name": "マーメイドラグーンシアター",
             "lat": "35.62640700722643",
             "lon": "139.88271825269382",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "840"
         },
         {
             "name": "ワールプール",
             "lat": "35.626673391618006",
             "lon": "139.88312897895753",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "90"
         },
         {
             "name": "海底2万マイル",
             "lat": "35.62641929875694",
             "lon": "139.88461075873784",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "300"
         },
         {
             "name": "センター・オブ・ジ・アース",
             "lat": "35.62591270174353",
             "lon": "139.88453268519172",
-            "type": "attraction"
+            "type": "attraction",
+            "play-time": "180"
         },
         {
             "name": "カフェ・ポルトフィーノ",
