@@ -25,12 +25,14 @@ if __name__ == "__main__":
         all_spot_routes.append({
             "org_spot_id": org_spot_id,
             "dst_spot_id": dst_spot_id,
-            "distance": route.cost
+            "distance": route.cost,
+            "nodes": route.node_list
         })
         all_spot_routes.append({
             "org_spot_id": dst_spot_id,
             "dst_spot_id": org_spot_id,
-            "distance": route.cost
+            "distance": route.cost,
+            "nodes": list(reversed(route.node_list))
         })
     with open(OUTPUT_PATH + "all_spot_pair_routes.json", "w", encoding="utf-8") as f:
         json.dump({"all_spot_pair_routes": all_spot_routes}, f, ensure_ascii=False, indent=4)
