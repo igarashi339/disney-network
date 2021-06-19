@@ -3,6 +3,16 @@
 <Document id="1">
 	<name>disney-sea-network.kml</name>
 	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -13,6 +23,55 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -40,56 +99,17 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -102,19 +122,8 @@
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin">
+	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
-			<color>ff7f55ff</color>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
@@ -142,13 +151,86 @@
 	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ff7f55ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>link</name>
+		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.8825335322866,35.6266582995495,0 139.8826788383022,35.62660352494203,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
 	<Placemark>
 		<name>link1</name>
 		<styleUrl>#msn_ylw-pushpin0</styleUrl>
@@ -1120,16 +1202,6 @@
 		</LineString>
 	</Placemark>
 	<Placemark>
-		<name>link117</name>
-		<styleUrl>#msn_ylw-pushpin0</styleUrl>
-		<LineString>
-			<tessellate>1</tessellate>
-			<coordinates>
-				139.8828340165928,35.6266231625435,0 139.882683326872,35.62660289486208,0 139.8827381689119,35.62647300307031,0 
-			</coordinates>
-		</LineString>
-	</Placemark>
-	<Placemark>
 		<name>link118</name>
 		<styleUrl>#msn_ylw-pushpin0</styleUrl>
 		<LineString>
@@ -1371,7 +1443,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1381,7 +1453,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1391,7 +1463,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1401,7 +1473,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1411,7 +1483,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1421,17 +1493,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
-		<LineString>
-			<tessellate>1</tessellate>
-			<coordinates>
-				139.8826880462657,35.62658570457049,0 139.8825451460165,35.62665739511212,0 
-			</coordinates>
-		</LineString>
-	</Placemark>
-	<Placemark>
-		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1441,7 +1503,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1451,7 +1513,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1461,7 +1523,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1471,7 +1533,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1481,7 +1543,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1491,7 +1553,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1501,7 +1563,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1511,7 +1573,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1521,7 +1583,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1531,7 +1593,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1541,7 +1603,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1551,7 +1613,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1561,7 +1623,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1571,7 +1633,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1581,7 +1643,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1591,7 +1653,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1601,7 +1663,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1611,7 +1673,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1621,7 +1683,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1631,7 +1693,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1641,7 +1703,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1651,7 +1713,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1661,7 +1723,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1671,7 +1733,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1681,7 +1743,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1691,7 +1753,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1701,7 +1763,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1711,7 +1773,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1721,7 +1783,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1731,7 +1793,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1741,7 +1803,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1751,7 +1813,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1761,7 +1823,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1771,7 +1833,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
+		<styleUrl>#m_ylw-pushpin000</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1781,7 +1843,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<styleUrl>#m_ylw-pushpin01</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1791,7 +1853,7 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<styleUrl>#m_ylw-pushpin01</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
@@ -1801,11 +1863,31 @@
 	</Placemark>
 	<Placemark>
 		<name>link</name>
-		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<styleUrl>#m_ylw-pushpin01</styleUrl>
 		<LineString>
 			<tessellate>1</tessellate>
 			<coordinates>
 				139.8840439876819,35.62526614170553,0 139.884265663911,35.62522336248673,0 139.8843946708947,35.62516081317284,0 139.8844206683579,35.62509230401839,0 139.8844297761757,35.62503136089801,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>link</name>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.8828360470362,35.62663240682487,0 139.8826761500828,35.62660550443444,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>link</name>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				139.8826761500828,35.62660550443444,0 139.8827373056019,35.6264949079287,0 
 			</coordinates>
 		</LineString>
 	</Placemark>
