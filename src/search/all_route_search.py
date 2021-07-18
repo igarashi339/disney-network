@@ -15,22 +15,22 @@ if __name__ == "__main__":
     dijkstra = Dijkstra(graph)
     all_spot_routes = []
     for pair in itertools.combinations(spots, 2):
-        org_spot_id = pair[0]["spot_id"]
-        dst_spot_id = pair[1]["spot_id"]
+        org_spot_id = pair[0]["spot-id"]
+        dst_spot_id = pair[1]["spot-id"]
         node_id_org, node_id_dst = \
             loader.get_nearest_node_id(org_spot_id, dst_spot_id)
         route = dijkstra.calc_shortest_path(node_id_org, node_id_dst)
         route.expand_myself(graph)
-        print(str(pair[0]["spot_id"]) + "_" + str(pair[1]["spot_id"]) + ": OK")
+        print(str(pair[0]["spot-id"]) + "_" + str(pair[1]["spot-id"]) + ": OK")
         all_spot_routes.append({
-            "org_spot_id": org_spot_id,
-            "dst_spot_id": dst_spot_id,
+            "org-spot-id": org_spot_id,
+            "dst-spot-id": dst_spot_id,
             "distance": route.cost,
             "nodes": route.node_list
         })
         all_spot_routes.append({
-            "org_spot_id": dst_spot_id,
-            "dst_spot_id": org_spot_id,
+            "org-spot-id": dst_spot_id,
+            "dst-spot-id": org_spot_id,
             "distance": route.cost,
             "nodes": list(reversed(route.node_list))
         })

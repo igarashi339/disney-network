@@ -24,8 +24,8 @@ class Graph:
         with open(links_path, "r", encoding="utf-8") as f:
             json_data = json.load(f)
             for link in json_data["links"]:
-                org_node_id = int(link["org_node_id"])
-                dst_node_id = int(link["dst_node_id"])
+                org_node_id = int(link["org-node-id"])
+                dst_node_id = int(link["dst-node-id"])
                 length = float(link["length"])
                 self.link_matrix[org_node_id][dst_node_id].length = length
                 self.link_matrix[org_node_id][dst_node_id].coords = copy.deepcopy(link["coords"])
