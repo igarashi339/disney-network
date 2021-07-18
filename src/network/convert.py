@@ -186,7 +186,8 @@ def make_spots_kml(spot_obj_list):
         "restaurant": simplekml.Color.green,
         "shop": simplekml.Color.orange,
         "place": simplekml.Color.red,
-        "show": simplekml.Color.hotpink
+        "show": simplekml.Color.hotpink,
+        "greeting": simplekml.Color.aqua
     }
     for spot in spot_obj_list:
         pnt = kml.newpoint(description=spot["name"])
