@@ -101,7 +101,7 @@ def make_objects(org_nodes, org_links):
     nodes = []
     for i, org_node in enumerate(org_nodes):
         nodes.append({
-            "node_id": i,
+            "node-id": i,
             "lat": org_node[0],
             "lon": org_node[1]
         })
@@ -110,9 +110,9 @@ def make_objects(org_nodes, org_links):
     links = []
     for i, org_link in enumerate(org_links):
         links.append({
-            "link_id": i,
-            "org_node_id": find_node(org_link[0], org_nodes),
-            "dst_node_id": find_node(org_link[-1], org_nodes),
+            "link-id": i,
+            "org-node-id": find_node(org_link[0], org_nodes),
+            "dst-node-id": find_node(org_link[-1], org_nodes),
             "length": calc_length(org_link),
             "coords": org_link
         })
@@ -142,7 +142,7 @@ def calc_nearst_node(coord, node_obj_list):
         distance = geodesic(coord, node_coord).m
         if distance < nearest_distance:
             nearest_distance = distance
-            nearest_node_id = node["node_id"]
+            nearest_node_id = node["node-id"]
     return nearest_node_id
 
 
@@ -153,13 +153,13 @@ def make_spot_obj_list(node_obj_list):
         for i, spot in enumerate(json_data["spots"]):
             coord = (spot["lat"], spot["lon"])
             new_obj = {
-                "spot_id": i,
+                "spot-id": i,
                 "name": spot["name"],
                 "short-name": spot["short-name"],
                 "lat": spot["lat"],
                 "lon": spot["lon"],
                 "type": spot["type"],
-                "nearest_node_id": calc_nearst_node(coord, node_obj_list)
+                "nearest-node-id": calc_nearst_node(coord, node_obj_list)
             }
             if spot.get("play-time"):
                 new_obj["play-time"] = spot["play-time"]
@@ -189,7 +189,7 @@ def make_spots_kml(spot_obj_list):
         "show": simplekml.Color.hotpink
     }
     for spot in spot_obj_list:
-        pnt = kml.newpoint(name=spot["name"])
+        pnt = kml.newpoint(description=spot["name"])
         pnt.coords = [(spot["lon"], spot["lat"])]
         pnt.style.iconstyle.color = spot_color_map[spot["type"]]
     kml.save(OUTPUT_DIR_PATH + "disney-sea-spots.kml")

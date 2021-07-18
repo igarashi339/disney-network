@@ -13,10 +13,10 @@ class Loader:
         with open(self.spots_json_path, "r", encoding="utf-8") as f:
             json_data = json.load(f)
             for spot in json_data["spots"]:
-                if spot_id_org == spot["spot_id"]:
-                    org_node_id = spot["nearest_node_id"]
-                if spot_id_dst == spot["spot_id"]:
-                    dst_node_id = spot["nearest_node_id"]
+                if spot_id_org == spot["spot-id"]:
+                    org_node_id = spot["nearest-node-id"]
+                if spot_id_dst == spot["spot-id"]:
+                    dst_node_id = spot["nearest-node-id"]
             return org_node_id, dst_node_id
 
     def get_nodes(self):
