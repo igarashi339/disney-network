@@ -155,6 +155,7 @@ def make_spot_obj_list(node_obj_list):
             new_obj = {
                 "spot_id": i,
                 "name": spot["name"],
+                "short-name": spot["short-name"],
                 "lat": spot["lat"],
                 "lon": spot["lon"],
                 "type": spot["type"],
@@ -162,6 +163,8 @@ def make_spot_obj_list(node_obj_list):
             }
             if spot.get("play-time"):
                 new_obj["play-time"] = spot["play-time"]
+            if spot.get("url"):
+                new_obj["url"] = spot["url"]
             spot_obj_list.append(new_obj)
         return spot_obj_list
 
