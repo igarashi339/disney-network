@@ -266,7 +266,7 @@
             "lon": "139.88714679981504",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/400/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ゴンドリエ・スナック",
@@ -275,7 +275,7 @@
             "lon": "139.88730258806373",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/411/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ザンビーニ･ブラザーズ･リストランテ",
@@ -284,7 +284,7 @@
             "lon": "139.8860085445333",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/403/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "マゼランズ",
@@ -293,7 +293,7 @@
             "lon": "139.88528718994823",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/412/",
-            "must-reservation": "true"
+            "can-reserve": "true"
         },
         {
             "name": "マゼランズ・ラウンジ",
@@ -302,7 +302,7 @@
             "lon": "139.88533479915824",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/415/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "マンマ・ビスコッティーズ・ベーカリー",
@@ -311,7 +311,7 @@
             "lon": "139.88761556530423",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/401/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "リストランテ・ディ・カナレット",
@@ -320,7 +320,7 @@
             "lon": "139.8878840659662",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/401/",
-            "must-reservation": "true"
+            "can-reserve": "true"
         },
         {
             "name": "リフレスコス",
@@ -329,7 +329,7 @@
             "lon": "139.88498528406274",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/416/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "S.S.コロンビア・ダイニングルーム",
@@ -338,7 +338,7 @@
             "lon": "139.88722275593676",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/menu/425/",
-            "must-reservation": "true"
+            "can-reserve": "true"
         },
         {
             "name": "ケープコッド・クックオフ",
@@ -347,7 +347,7 @@
             "lon": "139.88510562868893",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/446/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ケープコッド・コンフェクション",
@@ -356,7 +356,7 @@
             "lon": "139.8849652703674",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/448/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ドックサイドダイナー",
@@ -365,7 +365,7 @@
             "lon": "139.88760165630976",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/441/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "テディ・ルーズヴェルト・ラウンジ",
@@ -374,7 +374,7 @@
             "lon": "139.887249490907",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/429/",
-            "must-reservation": "true"
+            "can-reserve": "true"
         },
         {
             "name": "デランシー・ケータリング",
@@ -383,7 +383,7 @@
             "lon": "139.8875073792503",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/423/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ニューヨーク・デリ",
@@ -392,7 +392,7 @@
             "lon": "139.8878674000761",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/422/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "バーナクル・ビルズ",
@@ -401,7 +401,7 @@
             "lon": "139.88680246759344",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/430/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ハイタイド・トリート",
@@ -410,7 +410,7 @@
             "lon": "139.88435859423043",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/449/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ハドソンリバー・ハーベスト",
@@ -419,7 +419,7 @@
             "lon": "139.88736299869663",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/498/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "パパダキス・フレッシュフルーツ",
@@ -428,7 +428,7 @@
             "lon": "139.88698791986826",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/440/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "リバティ・ランディング・ダイナー",
@@ -437,7 +437,7 @@
             "lon": "139.88702237925037",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/435/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "レストラン櫻",
@@ -446,7 +446,7 @@
             "lon": "139.88706780260532",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/435/",
-            "must-reservation": "true"
+            "can-reserve": "true"
         },
         {
             "name": "レストラン櫻 テラス席",
@@ -455,7 +455,7 @@
             "lon": "139.88699008414704",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/436/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "シーサイドスナック",
@@ -464,7 +464,7 @@
             "lon": "139.88407739704098",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/450/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ブリーズウェイ・バイツ",
@@ -473,7 +473,7 @@
             "lon": "139.8832934499238",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/454/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ベイサイド・テイクアウト",
@@ -482,7 +482,7 @@
             "lon": "139.88303017036733",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/453/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ホライズンベイ・レストラン",
@@ -491,7 +491,7 @@
             "lon": "139.88332197925132",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/451/",
-            "must-reservation": "true"
+            "can-reserve": "true"
         },
         {
             "name": "エクスペディション・イート",
@@ -500,7 +500,7 @@
             "lon": "139.88147863907696",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/460/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "トロピック・アルズ",
@@ -509,7 +509,7 @@
             "lon": "139.88214863509043",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/457/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ミゲルズ・エルドラド・キャンティーナ",
@@ -518,7 +518,7 @@
             "lon": "139.88221841668994",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/456/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ユカタン・ベースキャンプ・グリル",
@@ -527,7 +527,7 @@
             "lon": "139.8807422907195",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/459/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ロストリバークックハウス",
@@ -536,7 +536,7 @@
             "lon": "139.88129555984574",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/461/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "オープンセサミ",
@@ -545,7 +545,7 @@
             "lon": "139.8818056970414",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/465/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "カスバ・フードコート",
@@ -554,7 +554,7 @@
             "lon": "139.88271758423892",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/463/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "サルタンズ・オアシス",
@@ -563,7 +563,7 @@
             "lon": "139.88205571876244",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/464/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "セバスチャンのカリプソキッチン",
@@ -572,7 +572,7 @@
             "lon": "139.88250134014066",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/468/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ヴォルケイニア・レストラン",
@@ -581,7 +581,7 @@
             "lon": "139.8843650691074",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/418/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "ノーチラスギャレー",
@@ -590,7 +590,7 @@
             "lon": "139.88424979704135",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/421/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "リフレッシュメント・ステーション",
@@ -599,7 +599,7 @@
             "lon": "139.8838738970412",
             "type": "restaurant",
             "url": "https://www.tokyodisneyresort.jp/tds/restaurant/detail/419/",
-            "must-reservation": "false"
+            "can-reserve": "false"
         },
         {
             "name": "イル・ポスティーノ・ステーショナリー",
