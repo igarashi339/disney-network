@@ -151,22 +151,12 @@ def make_spot_obj_list(node_obj_list):
         json_data = json.load(f)
         spot_obj_list = []
         for i, spot in enumerate(json_data["spots"]):
+            new_obj = {}
+            new_obj["spot-id"] = i
+            for key in spot:
+                new_obj[key] = spot[key]
             coord = (spot["lat"], spot["lon"])
-            new_obj = {
-                "spot-id": i,
-                "name": spot["name"],
-                "short-name": spot["short-name"],
-                "lat": spot["lat"],
-                "lon": spot["lon"],
-                "type": spot["type"],
-                "nearest-node-id": calc_nearst_node(coord, node_obj_list)
-            }
-            if spot.get("play-time"):
-                new_obj["play-time"] = spot["play-time"]
-            if spot.get("url"):
-                new_obj["url"] = spot["url"]
-            if spot.get("can-reserve"):
-                new_obj["can-reserve"] = spot["can-reserve"]
+            new_obj["nearest-node-id"] = calc_nearst_node(coord, node_obj_list)
             spot_obj_list.append(new_obj)
         return spot_obj_list
 
