@@ -14,7 +14,7 @@ if __name__ == "__main__":
     graph = Graph(node_num, INPUT_PATH + "/links.json")
     dijkstra = Dijkstra(graph)
     all_spot_routes = []
-    for pair in itertools.combinations(spots, 2):
+    for pair in itertools.combinations_with_replacement(spots, 2):
         org_spot_id = pair[0]["spot-id"]
         dst_spot_id = pair[1]["spot-id"]
         node_id_org, node_id_dst = \
@@ -28,6 +28,8 @@ if __name__ == "__main__":
             "distance": route.cost,
             "nodes": route.node_list
         })
+        if org_spot_id == dst_spot_id:
+            continue
         all_spot_routes.append({
             "org-spot-id": dst_spot_id,
             "dst-spot-id": org_spot_id,
